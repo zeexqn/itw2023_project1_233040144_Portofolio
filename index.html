@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portofolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css" />
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="img/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skill">Skill</a></li>
+                    <li><a href="#hobby">Hobby</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class='bx bx-x' onclick="closemenu()"></i>
+                </ul>
+                <i class='bx bx-menu' onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>College Student</p>
+                <h1>Hi, I'm <span>Zeina</span> Qurotun<span> Nisa</span></h1>
+                <h3><span>Universitas </span>Pasundan</h3><br>
+            </div>
+        </div>
+    </div>
+    <!-- about -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="img/profile.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About<span> Me</span> </h1>
+                    <p>Hallo Everyone ,Nama saya Zeina Qurotun Nisa saya merupakan mahasiswa Program Studi Teknik Informatika di Universitas Pasundan. Saat ini saya masih semester satu ,Alasan saya masuk Teknik Informatika Universitas Pasundan saya ingin belajar mengenai bidang IT dimana di zaman yang teknologi nya semakin canggih kita harus mampu juga menciptakan sebuah inovasi teknologi yang mampu mempermudah hidup kita .</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- skill -->
+    <div id="skill">
+        <div class="container">
+            <h1 class="sub-title">Skill<span>'s</span></h1>
+            <div class="skill-list">
+                <div>
+                    <i class='bx bxs-face'></i>
+                    <h2>Desain Grafis</h2>
+                    <p>proses komunikasi menggunakan elemen visual, seperti tipografi, fotografi, serta ilustrasi yang dimaksudkan untuk menciptakan persepsi akan suatu pesan yang disampaikan.</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class='bx bxs-select-multiple'></i>
+                    <h2>Multitasking</h2>
+                    <p> suatu kemampuan untuk mengelola atau mengerjakan beberapa tugas secara bersamaan</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class='bx bx-analyse' ></i>
+                    <h2>Analisis</h2>
+                    <p>mengamati aktivitas objek dengan cara mendeskripsikan komposisi objek dan menyusun kembali komponen-komponennya untuk dikaji atau dipelajari secara detail.</p>
+                    <a href="#">learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hobby -->
+    <div id="hobby">
+        <div class="container">
+            <h1 class="sub-title"><span>My</span> Hobby</h1>
+            <div class="hobby-list">
+                <div class="hobby">
+                    <img src="img/cooking.jpeg">
+                    <div class="layer">
+                        <h3>Cooking</h3>
+                        <p>Selain membuat kenyang perut memasak juga membuat bahagia.</p>
+                        <i class='bx bx-edit-alt' ></i>
+                    </div>
+                </div>
+                <div class="hobby">
+                    <img src="img/tari.jpg">
+                    <div class="layer">
+                    <h3>Dance</h3>
+                    <p>Menari merupakan hobby yang sagat saya senangi karena menari mampu membuat tubuh saya berolahraga.</p>
+                    <i class='bx bx-edit-alt' ></i>
+                    </div>
+                </div>
+                <div class="hobby">
+                    <img src="img/music.jpeg">
+                    <div class="layer">
+                    <h3>Listening Music</h3>
+                    <p>Mendengarkan musik yang sesuai dengan keadaan mampu membuat otak menjadi lebih tenang.</p>
+                    <i class='bx bx-edit-alt' ></i>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+    <!-- Contact -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact <span>Me</span></h1>
+                    <p><i class='bx bxl-telegram' ></i>zeina.233040144@mail.unpas.ac.id</p>
+                    <p><i class='bx bxs-phone' ></i>089321224511</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/z_qn11?igshid=YTQwZjQ0NmI0OA=="><i class='bx bxl-instagram' ></i></a>
+                        <a href="https://www.linkedin.com/in/zeina-qurotun-nisa-a9497a297?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class='bx bxl-linkedin' ></i></a>
+                        <a href="https://www.facebook.com/zeina.qurotunisa?mibextid=zLoPMf"><i class='bx bxl-facebook' ></i></a>
+                    </div>
+                    <a href="img/cv zeina.pdf" class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message" ></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg">Hello</span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Created with <i class='bx bxs-heart'></i> Zeina Qurotun Nisa  </p>
+        </div>
+    </div>
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+    sidemeu.style.right = "0";
+    }
+    function closemenu(){
+    sidemeu.style.right = "-200px";
+    }
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbx1RSJ0qkEvm6TbgVBr0yGqKUDm24SCRRczQ08q33r3_9pikJooqBDtfQbCX8C3114raA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
